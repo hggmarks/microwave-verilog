@@ -1,0 +1,120 @@
+$date
+	Sun May  8 23:23:08 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module counter_0_7_tb $end
+$var wire 1 ! OUT $end
+$var reg 1 " CLEAR $end
+$var reg 1 # CLK $end
+$scope module dut $end
+$var wire 1 " CLEAR $end
+$var wire 1 # CLK $end
+$var reg 1 ! OUT $end
+$var reg 3 $ actual_state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx $
+0#
+0"
+x!
+$end
+#1
+0!
+1#
+#2
+b0 $
+0#
+1"
+#3
+b1 $
+1#
+#4
+0#
+#5
+b10 $
+1#
+#6
+0#
+#7
+b11 $
+1#
+#8
+0#
+#9
+1!
+b100 $
+1#
+#10
+0#
+#11
+1!
+b101 $
+1#
+#12
+0#
+#13
+1!
+b110 $
+1#
+#14
+0#
+#15
+1!
+b111 $
+1#
+#16
+0#
+#17
+0!
+b0 $
+1#
+#18
+0#
+#19
+b1 $
+1#
+#20
+0#
+#21
+b10 $
+1#
+#22
+0#
+0"
+#23
+b11 $
+1#
+#24
+0#
+#25
+1!
+b100 $
+1#
+#26
+0#
+#27
+1!
+b101 $
+1#
+#28
+0#
+#29
+1!
+b110 $
+1#
+#30
+0#
+#31
+1!
+b111 $
+1#
+#32
+0#
