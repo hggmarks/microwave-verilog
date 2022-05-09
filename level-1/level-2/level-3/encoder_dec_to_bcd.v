@@ -1,5 +1,5 @@
 module encoder_dec_to_bcd(input wire [9:0] DEC, input wire EN,
-                          output reg [3:0] BCD, output reg AI);
+                          output reg [3:0] BCD, output reg DATA_VALID);
 
 
     always @(DEC) begin
@@ -20,11 +20,11 @@ module encoder_dec_to_bcd(input wire [9:0] DEC, input wire EN,
                 BCD = 4'b0000;
             endcase
 
-            AI = (DEC != 0);
+            DATA_VALID = (DEC != 0);
         end
         else begin
             BCD = 0;
-            AI = 0;
+            DATA_VALID = 0;
         end
     end
 endmodule

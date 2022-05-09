@@ -4,9 +4,9 @@ module encoder_dec_to_bcd_tb();
     reg [9:0] DEC;
     reg EN;
     wire [3:0] BCD;
-    wire AI;
+    wire DATA_VALID;
 
-    encoder_dec_to_bcd dut(DEC, EN, BCD, AI);
+    encoder_dec_to_bcd dut(DEC, EN, BCD, DATA_VALID);
 
     initial begin
         EN = 0; #10;
